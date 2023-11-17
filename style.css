@@ -307,6 +307,137 @@ h2 {
     margin-left: 150px;
 }
 
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 50 30px;
+    background-color: lightblue;
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 1px double orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: bisque;
+}
+
+.catalog a {
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    font-size: 14px;
+    color: black;
+}
+
+.product {
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    border: 5px double orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: bisque;
+}
+
+article {
+    background-color: white;
+    padding: ;
+    width: 200px;
+    margin: 0px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(7, 80, 25);
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px 55px 10px 40px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 30px;
+    background-color: #FFFFFF;
+}
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    border: 1px double gray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(235, 230, 223);
+}
+
+.gallery img {
+    border-radius: 55px;
+    height: 60px;
+    width: 60px;
+}
+
+.main-teachers__box-title {
+    position: relative;
+    color: #111111;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.444;
+    margin-bottom: 5px;
+}
+
+.main-teachers__box-text {
+    position: relative;
+    max-height: 90px;
+    max-width: 240px;
+    font-size: 14px;
+    line-height: 1.357;
+    margin: 0 auto 10px;
+    overflow: hidden;
+}
+
+.main-teachers__box-button {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-teachers__box-button {
+    position: relative;
+    text-align: left;
+    margin-top: auto;
+    z-index: 1;
+}
+
+
+h4{
+    font-size: 17px;
+    font-family: cursive;
+}
+
+h5{
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 590px;
+}
+
+.button:hover{
+    background-color: green;
+    transition: 0.4;
+}
+
+button {
+    background-color: #e9e06c;
+    color: black;
+    border:none;
+}
+
 footer {
     background-image: linear-gradient(#0971d3, white);
     padding: 10px;
