@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: #EAEAEA;
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ header {
     padding: 20px;
     height: 60px;
     display: flex;
-    align-items: center;
+    text-align: center;
     z-index: 1; 
     top: 0px;
     left: 0px;
@@ -33,9 +33,9 @@ header {
 }
 
 
-heade0r img{
-    height: 100%;
-    width:  100%;
+headeor img{
+    height: 150%;
+    width:  120%;
     border-radius: 0px;
 }
 
@@ -59,6 +59,7 @@ heade0r img{
     padding-right: 20px;
 }
 
+
 .mobile-header .navbar-inverse .navbar-nav > li > a {
     color: #333333;
     padding-top: 10px;
@@ -72,6 +73,8 @@ a {
     background-image: linear-gradient(to right, white);
     padding: 15px;
     border-radius: 10px;
+    text-align: center;
+    justify-content: flex-end;
 }
 
 a {
@@ -82,4 +85,85 @@ a {
 a:hover {
     color: rgb(0, 0, 0);
     
+}
+
+main{
+  position: relative;
+  top: 100px;
+  left: 0px;
+  z-index: 0px; 
+}
+
+nav {
+    color: #000;
+}
+
+.w-nav {
+    z-index: 1000;
+    background-color: black;
+    position: absolute;
+}
+* {
+    box-sizing: border-box;
+}
+
+.nav__link.phone_hide {
+    display: none;
+}
+
+.nav__link {
+    margin-bottom: 10px;
+}
+.nav__link {
+    color: #000;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.w-nav-link {
+    vertical-align: top;
+    color: #222;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+a {
+    background-color: rgba(0, 0, 0, 0);
+}
+* {
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer; 
+}
+
+.button__primary.header {
+    box-shadow: none;
+    flex: none;
+    margin-left: auto;
+    padding: 20px;
+}
+
+
+.button__primary{
+    border: 1px solid var(--orange);
+    color: orange;
+    background-color: orangered;
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 700;
 }
